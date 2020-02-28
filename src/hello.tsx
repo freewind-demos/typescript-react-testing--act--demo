@@ -11,7 +11,7 @@ export default function Hello(props: Props) {
   const [name, setName] = useState(props.name)
 
   function onChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const value = event.currentTarget.value;
+    const value = event.currentTarget?.value;
     setName(value);
     props.onChange(value);
   }
