@@ -1,9 +1,7 @@
-TypeScript React "react-testing-library" Demo
+TypeScript React Jest Test Hook Demo
 =============================================
 
-如何使用jest和`react-testing-library`来测试react component的行为。
-
-`react-testing-library`已经迁移到`@testing-library/react`
+如何在jest中测试一个react hook
 
 ```
 npm install
