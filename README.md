@@ -1,7 +1,9 @@
-TypeScript React Jest Test Hook Demo
+TypeScript React Jest Testing "act" Demo
 =============================================
 
-如何在jest中测试一个react hook
+测试react时有一个`act`一直不太好理解，直到看了这篇文章：
+
+https://github.com/mrdulin/react-act-examples/blob/master/sync.md
 
 ```
 npm install
